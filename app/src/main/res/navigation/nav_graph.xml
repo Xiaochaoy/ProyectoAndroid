@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/recyclerChampionsFragment"
+        android:name="com.company.room.RecyclerChampionsFragment"
+        android:label="Champions"
+        tools:layout="@layout/fragment_recycler_champions" />
+    <fragment
+        android:id="@+id/recyclerAlfaFragment"
+        android:name="com.company.room.RecyclerAlfaFragment"
+        android:label="Alfabetico"
+        tools:layout="@layout/fragment_recycler_champions" />
+
+    <action
+        android:id="@+id/action_mostrarChampionFragment"
+        app:destination="@id/mostrarChampionFragment" />
+    <action
+        android:id="@+id/action_nuevoChampionFragment"
+        app:destination="@id/nuevoChampionFragment" />
+
+    <fragment
+        android:id="@+id/nuevoChampionFragment"
+        android:name="com.company.room.NuevoChampionFragment"
+        android:label="Creacion"
+        tools:layout="@layout/fragment_nuevo_champion" />
+    <fragment
+        android:id="@+id/mostrarChampionFragment"
+        android:name="com.company.room.MostrarChampionFragment"
+        android:label="Detalles"
+        tools:layout="@layout/fragment_mostrar_champion" />
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.company.room.HomeFragment"
+        android:label="Inicio"
+        tools:layout="@layout/fragment_home" />
+
+<!--    mapa-->
+    <fragment
+        android:id="@+id/mapa1Fragment"
+        android:name="com.company.room.mapa1Fragment"
+        android:label="Freljord"
+        tools:layout="@layout/fragment_mapa1" />
+    <fragment
+        android:id="@+id/mapa2Fragment"
+        android:name="com.company.room.mapa2Fragment"
+        android:label="Demacia"
+        tools:layout="@layout/fragment_mapa2" />
+    <fragment
+        android:id="@+id/mapa3Fragment"
+        android:name="com.company.room.mapa3Fragment"
+        android:label="Noxus"
+        tools:layout="@layout/fragment_mapa3" />
+    <fragment
+        android:id="@+id/mapa4Fragment"
+        android:name="com.company.room.mapa4Fragment"
+        android:label="Jonia"
+        tools:layout="@layout/fragment_mapa4" />
+    <fragment
+        android:id="@+id/mapa5Fragment"
+        android:name="com.company.room.mapa5Fragment"
+        android:label="Piltover y Zaun"
+        tools:layout="@layout/fragment_mapa5" />
+    <fragment
+        android:id="@+id/mapa6Fragment"
+        android:name="com.company.room.mapa6Fragment"
+        android:label="Agua estancadas"
+        tools:layout="@layout/fragment_mapa6" />
+    <fragment
+        android:id="@+id/mapa7Fragment"
+        android:name="com.company.room.mapa7Fragment"
+        android:label="Islas de sombras"
+        tools:layout="@layout/fragment_mapa7" />
+    <fragment
+        android:id="@+id/mapa8Fragment"
+        android:name="com.company.room.mapa8Fragment"
+        android:label="Ixtal"
+        tools:layout="@layout/fragment_mapa8" />
+    <fragment
+        android:id="@+id/mapa9Fragment"
+        android:name="com.company.room.mapa9Fragment"
+        android:label="Shurima"
+        tools:layout="@layout/fragment_mapa9" />
+    <fragment
+        android:id="@+id/mapa10Fragment"
+        android:name="com.company.room.mapa10Fragment"
+        android:label="Targon"
+        tools:layout="@layout/fragment_mapa10" />
+
+    <action
+        android:id="@+id/action_mapa1Fragment"
+        app:destination="@id/mapa1Fragment" />
+    <action
+        android:id="@+id/action_mapa2Fragment"
+        app:destination="@id/mapa2Fragment" />
+    <action
+        android:id="@+id/action_mapa3Fragment"
+        app:destination="@+id/mapa3Fragment"/>
+    <action
+        android:id="@+id/action_mapa4Fragment"
+        app:destination="@+id/mapa4Fragment"/>
+    <action
+        android:id="@+id/action_mapa5Fragment"
+        app:destination="@+id/mapa5Fragment"/>
+    <action
+        android:id="@+id/action_mapa6Fragment"
+        app:destination="@+id/mapa6Fragment"/>
+    <action
+        android:id="@+id/action_mapa7Fragment"
+        app:destination="@+id/mapa7Fragment"/>
+    <action
+        android:id="@+id/action_mapa8Fragment"
+        app:destination="@+id/mapa8Fragment"/>
+    <action
+        android:id="@+id/action_mapa9Fragment"
+        app:destination="@+id/mapa9Fragment"/>
+    <action
+        android:id="@+id/action_mapa10Fragment"
+        app:destination="@+id/mapa10Fragment"/>
+</navigation>

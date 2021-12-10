@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/chaos/Downloads/proyecto/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/chaos/Downloads/proyecto/app/src/main/res/layout/fragment_historia1.xml" value="0.18115942028985507" />
+        <entry key="..\:/Users/chaos/Downloads/proyecto/app/src/main/res/layout/fragment_historia2.xml" value="0.18115942028985507" />
+        <entry key="..\:/Users/chaos/Downloads/proyecto/app/src/main/res/layout/fragment_home.xml" value="0.18206521739130435" />
+        <entry key="..\:/Users/chaos/Downloads/proyecto/app/src/main/res/layout/fragment_mapa1.xml" value="0.2" />
+        <entry key="..\:/Users/chaos/Downloads/proyecto/app/src/main/res/layout/fragment_mapa10.xml" value="0.1956521739130435" />
+        <entry key="..\:/Users/chaos/Downloads/proyecto/app/src/main/res/layout/fragment_mapa2.xml" value="0.33" />
+        <entry key="..\:/Users/chaos/Downloads/proyecto/app/src/main/res/layout/fragment_mapa3.xml" value="0.33" />
+        <entry key="..\:/Users/chaos/Downloads/proyecto/app/src/main/res/layout/fragment_mapa4.xml" value="0.33" />
+        <entry key="..\:/Users/chaos/Downloads/proyecto/app/src/main/res/layout/fragment_mapa5.xml" value="0.33" />
+        <entry key="..\:/Users/chaos/Downloads/proyecto/app/src/main/res/layout/fragment_mapa6.xml" value="0.33" />
+        <entry key="..\:/Users/chaos/Downloads/proyecto/app/src/main/res/layout/fragment_mapa7.xml" value="0.1956521739130435" />
+        <entry key="..\:/Users/chaos/Downloads/proyecto/app/src/main/res/layout/fragment_mapa8.xml" value="0.33" />
+        <entry key="..\:/Users/chaos/Downloads/proyecto/app/src/main/res/layout/fragment_mapa9.xml" value="0.33" />
+        <entry key="..\:/Users/chaos/Downloads/proyecto/app/src/main/res/layout/fragment_mostrar_champion.xml" value="0.2" />
+        <entry key="..\:/Users/chaos/Downloads/proyecto/app/src/main/res/layout/fragment_mostrar_elemento.xml" value="0.17980072463768115" />
+        <entry key="..\:/Users/chaos/Downloads/proyecto/app/src/main/res/layout/fragment_nuevo_champion.xml" value="0.2" />
+        <entry key="..\:/Users/chaos/Downloads/proyecto/app/src/main/res/layout/fragment_nuevo_elemento.xml" value="0.17980072463768115" />
+        <entry key="..\:/Users/chaos/Downloads/proyecto/app/src/main/res/layout/fragment_recycler_champions.xml" value="0.2" />
+        <entry key="..\:/Users/chaos/Downloads/proyecto/app/src/main/res/layout/fragment_recycler_elementos.xml" value="0.17980072463768115" />
+        <entry key="..\:/Users/chaos/Downloads/proyecto/app/src/main/res/layout/nav_header.xml" value="0.17889492753623187" />
+        <entry key="..\:/Users/chaos/Downloads/proyecto/app/src/main/res/layout/viewholder_champion.xml" value="0.2" />
+        <entry key="..\:/Users/chaos/Downloads/proyecto/app/src/main/res/layout/viewholder_elemento.xml" value="0.17980072463768115" />
+        <entry key="..\:/Users/chaos/Downloads/proyecto/app/src/main/res/menu/bottom_menu.xml" value="0.2" />
+        <entry key="..\:/Users/chaos/Downloads/proyecto/app/src/main/res/menu/nav_menu.xml" value="0.2" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.2" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

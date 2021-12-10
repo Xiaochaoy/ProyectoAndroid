@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@android:drawable/ic_lock_power_off"
+        android:title="Inicio" />
+
+    <item
+        android:id="@+id/recyclerChampionsFragment"
+        android:icon="@android:drawable/ic_input_get"
+        android:title="Champions" />
+
+    <item
+        android:id="@+id/recyclerAlfaFragment"
+        android:icon="@android:drawable/btn_star_big_on"
+        android:title="Alfabetico" />
+
+    <item
+        android:id="@+id/mapa1Fragment"
+        android:icon="@android:drawable/ic_dialog_map"
+        android:title="Mapa" />
+
+</menu>
